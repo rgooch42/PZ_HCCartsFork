@@ -1,0 +1,102 @@
+module HCCartsFork
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+   item HCWheelbarrow
+   {
+        WeightReduction         	= 100,
+        Weight             		    = 15,
+        Type                		= Container,
+        Capacity             		= 200,
+        DisplayName             	= Wheelbarrow,
+        Icon				        = HCWheelbarrow,
+        SurvivalGear			    = TRUE,
+	EquippedNoSprint 		    = FALSE,
+        RequiresEquippedBothHands 	= TRUE,
+        StaticModel                 = HCCartsFork.HCWheelbarrow,
+        WorldStaticModel            = HCCartsFork.HCWheelbarrow,
+        DisplayCategory	            = Container,
+        ReplaceInPrimaryHand 	    = Bag_Wheelbarrow_RHand holdingwheelbarrowright,
+   }
+
+   item HCPallettruck
+   {
+	WeightReduction         	= 100,
+	Weight             		    = 15,
+	Type                		= Container,
+	Capacity             		= 200,
+	DisplayName             	= Pallet Truck,
+	Icon				        = HCPallettruck,
+	RequiresEquippedBothHands 	= true,
+    	TwoHandWeapon               = TRUE,
+	DisplayCategory	= Container,
+   }
+
+   item HCPushcart
+   {
+	WeightReduction         	= 100,
+	Weight             		     = 10,
+	Type                		= Container,
+	Capacity             		= 150,
+	DisplayName             	= Push Cart,
+	Icon				        = HCPushcart,
+	RequiresEquippedBothHands 	= true,
+    	TwoHandWeapon               =   TRUE,
+	DisplayCategory	= Container,
+   }
+
+    item HCHanddolly
+   {
+	WeightReduction         	= 100,
+	Weight             		    = 7,
+	Type                		= Container,
+	Capacity             		= 170,
+	DisplayName             	= Hand Dolly,
+	Icon				        = HCHanddolly,
+	SurvivalGear			    = TRUE,
+	EquippedNoSprint 		    = FALSE,
+	RequiresEquippedBothHands 	= TRUE,
+	StaticModel                 = HCCartsFork.HCHanddolly,
+	WorldStaticModel            = HCCartsFork.HCHanddolly,
+	DisplayCategory	            = Container,
+	ReplaceInPrimaryHand 	    = Bag_Handdolly_RHand holdinghanddollyright,
+   }
+
+   item HCShoppingcart
+   {
+	WeightReduction        		= 100,
+	Weight             		    = 6,
+	Type                		= Container,
+	Capacity             		= 160,
+	DisplayName             	= Shopping Cart,
+	Icon				        = HCShoppingcart,
+	RequiresEquippedBothHands 	= true,
+	TwoHandWeapon               = TRUE,
+	DisplayCategory	= Container,
+   }
+
+   item HCToywagon
+   {
+    	WeightReduction        		= 100,
+    	Weight             		    = 5,
+    	Type                		= Container,
+    	Capacity             		= 150,
+    	DisplayName             	= Toy Wagon,
+    	Icon				        = HCToywagon,
+    	SurvivalGear			    = TRUE,
+    	EquippedNoSprint 		    = FALSE,
+    	StaticModel                 = HCCartsFork.HCToywagon,
+    	WorldStaticModel            = HCCartsFork.HCToywagonfolded,
+    	DisplayCategory	            = Container,
+    	ReplaceInPrimaryHand 	    = Bag_Toywagon_RHand holdingtoywagonright,
+    	ReplaceInSecondHand         = Bag_Toywagon_LHand holdingtoywagonleft,
+   }
+}
+
+/************************RECIPES************************/

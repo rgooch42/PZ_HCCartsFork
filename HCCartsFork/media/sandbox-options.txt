@@ -1,0 +1,32 @@
+VERSION = 1,
+option HCCartsFork.SpawnHanddolly
+{
+	type = boolean,
+	default = true,
+	page = HCCartsFork,
+	translation = HCCartsFork_Spawn_Handdolly,
+}
+
+option HCCartsFork.SpawnPallettruck
+{
+	type = boolean,
+	default = true,
+	page = HCCartsFork,
+	translation = HCCartsFork_Spawn_Pallettruck,
+}
+
+option HCCartsFork.SpawnToywagon
+{
+	type = boolean,
+	default = true,
+	page = HCCartsFork,
+	translation = HCCartsFork_Spawn_Toywagon,
+}
+
+option HCCartsFork.SpawnWheelbarrow
+{
+	type = boolean,
+	default = true,
+	page = HCCartsFork,
+	translation = HCCartsFork_Spawn_Wheelbarrow,
+}
